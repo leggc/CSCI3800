@@ -1,0 +1,47 @@
+{
+	"id": "d1f8a96a-757d-cc10-42e7-af0e3c7f2782",
+	"name": "assignment3",
+	"description": "",
+	"order": [
+		"11bb0f41-9d38-91b9-c415-6983004d2abf"
+	],
+	"folders": [],
+	"timestamp": 1459052988366,
+	"owner": "328023",
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "11bb0f41-9d38-91b9-c415-6983004d2abf",
+			"headers": "",
+			"url": "https://leggc-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "client_id",
+					"value": "leggc",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_secret",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1459053130724,
+			"name": "https://leggc-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials",
+			"description": "",
+			"collectionId": "d1f8a96a-757d-cc10-42e7-af0e3c7f2782",
+			"responses": []
+		}
+	]
+}
