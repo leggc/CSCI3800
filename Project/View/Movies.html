@@ -1,0 +1,30 @@
+﻿<div class="row">
+    <h2>Movies</h2>
+</div>
+
+<div class="row">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Movie</th>
+                <th>Starring</th>
+                <th>Release Date</th>
+            </tr>
+        </thead>
+        <tbody>
+
+
+            <tr ng-repeat="movie in movies">
+                <td>
+                    {{movie.title}}
+                </td>
+                <td>
+                    {{movie.stars}}
+                </td>
+                <td>
+                    {{movie.year}}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
